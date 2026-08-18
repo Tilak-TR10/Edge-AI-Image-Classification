@@ -1,0 +1,86 @@
+{
+  "version": 6,
+  "test": {
+    "int8": {
+      "confusion_matrix": [
+        [
+          39,
+          0,
+          0,
+          4
+        ],
+        [
+          0,
+          43,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          41,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          41
+        ]
+      ],
+      "classification_report": {
+        "0": {
+          "precision": 1,
+          "recall": 0.9069767441860465,
+          "f1-score": 0.951219512195122,
+          "support": 43
+        },
+        "1": {
+          "precision": 1,
+          "recall": 1,
+          "f1-score": 1,
+          "support": 43
+        },
+        "2": {
+          "precision": 1,
+          "recall": 1,
+          "f1-score": 1,
+          "support": 41
+        },
+        "3": {
+          "precision": 0.9111111111111111,
+          "recall": 1,
+          "f1-score": 0.9534883720930233,
+          "support": 41
+        },
+        "accuracy": 0.9761904761904762,
+        "macro avg": {
+          "precision": 0.9777777777777777,
+          "recall": 0.9767441860465116,
+          "f1-score": 0.9761769710720363,
+          "support": 168
+        },
+        "weighted avg": {
+          "precision": 0.9783068783068783,
+          "recall": 0.9761904761904762,
+          "f1-score": 0.9761634659535965,
+          "support": 168
+        }
+      },
+      "roc_auc": 0.9996744186046511,
+      "loss": 0.07123531146154802,
+      "support": 168,
+      "weighted_average": {
+        "precision": 0.9783068783068783,
+        "recall": 0.9761904761904762,
+        "f1-score": 0.9761634659535965
+      },
+      "class_names": [
+        "Avocado",
+        "Pepper_Green",
+        "Tomato",
+        "Unknown"
+      ]
+    }
+  }
+}
